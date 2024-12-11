@@ -14,6 +14,24 @@
     }
   },
   "tokenColors": [
+  {
+    "name": "General punctuation (brackets, parentheses, commas, etc.)",
+    "scope": [
+      "punctuation",
+      "punctuation.definition",
+      "punctuation.separator",
+      "punctuation.terminator",
+      "punctuation.definition.block",
+      "punctuation.definition.parameters",
+      "punctuation.bracket",
+      "punctuation.definition.tag",
+      "punctuation.definition.list",
+      "punctuation.definition.array"
+    ],
+    "settings": {
+      "foreground": "#d3d3d3"
+    }
+  },
     {
       "name": "unison punctuation",
       "scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
