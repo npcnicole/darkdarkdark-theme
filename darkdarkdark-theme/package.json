@@ -1,0 +1,20 @@
+{
+  "name": "darkdarkdark",
+  "displayName": "darkdarkdark",
+  "description": "nice and dark",
+  "version": "1.0.0",
+  "publisher": "nicolelele",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "darkdarkdark",
+        "uiTheme": "vs-dark",
+        "path": ".themes/darkdarkdark-color-theme.json"
+      }
+    ]
+  }
+}
