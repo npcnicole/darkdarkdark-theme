@@ -3,6 +3,10 @@
   "displayName": "darkdarkdark",
   "description": "nice and dark",
   "version": "1.0.0",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/npcnicolelele/darkdarkdark-theme"
+  },
   "publisher": "nicolelele",
   "engines": {
     "vscode": "^1.50.0"
@@ -13,7 +17,7 @@
       {
         "label": "darkdarkdark",
         "uiTheme": "vs-dark",
-        "path": ".themes/darkdarkdark-color-theme.json"
+        "path": "./themes/darkdarkdark-color-theme.json"
       }
     ]
   }
