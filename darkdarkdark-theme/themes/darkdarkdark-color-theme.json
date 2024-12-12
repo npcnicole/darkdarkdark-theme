@@ -11,6 +11,18 @@
     },
     "variable.defaultLibrary": {
       "foreground": "#e2dccf"
+    },
+    "property.instance": {
+      "foreground": "#D55E91"
+    },
+    "keyword": {
+      "foreground": "#a077c0"
+    },
+    "keyword.control": {
+      "foreground": "#a077c0"
+    },
+    "keyword.operator": {
+      "foreground": "#000000"
     }
   },
   "tokenColors": [
@@ -35,6 +47,7 @@
         "foreground": "#d78f64"
       }
     },
+    
     {
       "name": "support.variable.magic.python",
       "scope": "support.variable.magic.python",
@@ -356,7 +369,7 @@
         "keyword.operator.expression.keyof"
       ],
       "settings": {
-        "foreground": "#a077c0"
+        "foreground": "#54A2C9"
       }
     },
     {
@@ -527,13 +540,7 @@
         "foreground": "#54a2c9"
       }
     },
-    {
-      "name": "Keywords",
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#a077c0"
-      }
-    },
+
     {
       "name": "Namespaces",
       "scope": "entity.name.namespace",
@@ -541,13 +548,7 @@
         "foreground": "#e2dccf"
       }
     },
-    {
-      "name": "Variables",
-      "scope": "variable",
-      "settings": {
-        "foreground": "#d55e91"
-      }
-    },
+
     {
       "name": "Variables",
       "scope": "variable.c",
@@ -1369,10 +1370,10 @@
     {
       "name": "js func parameter",
       "scope": [
-        "variable.parameter.function.js"
+        "variable.parameter.function.js,variable.parameter"
       ],
       "settings": {
-        "foreground": "#d55e91"
+        "foreground": "#d78f64"
       }
     },
     {
@@ -1817,7 +1818,7 @@
     },
     {
       "name": "js/ts italic",
-      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.language.super",
       "settings": {
         "fontStyle": "italic"
       }
@@ -1841,6 +1842,55 @@
       "scope": "markup.italic.markdown",
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "js function",
+      "scope": "variable.other.object.js,meta.function-call.js,meta.var.expr.js,meta.block.js",
+      "settings": {
+        "foreground": "#e2dccf"
+      }
+    },
+    {
+      "name": "punctuation",
+      "scope": "punctuation.definition.block,meta.brace.round,punctuation.terminator.statement,punctuation.accessor,punctuation.separator.comma,meta.var.expr",
+      "settings": {
+        "foreground": "#d3d3d3"
+      }
+    },
+    {
+      "name": "Dart Annotation",
+      "scope": "meta.annotation.override.dart storage.type.annotation.dart,meta.annotation.override.dart,storage.type.annotation.dart, meta.annotation.dart,entity.name.function.dart",
+      "settings": {
+        "foreground": "#54A2C9"
+      }
+    },
+    {
+      "name": "Dart Variable",
+      "scope": "variable.other.dart",
+      "settings": {
+        "foreground": "#9ACD32"
+      }
+    },
+    {
+      "name": "dart property",
+      "scope": "property.instance.dart,meta.property.dart,support.function.dart,variable.other.dart",
+      "settings": {
+        "foreground": "#33ff00"
+      }
+    },
+    {
+      "name": "dart keyword declaration",
+      "scope": "keyword.declaration.dart",
+      "settings": {
+        "foreground": "#a077c0"
+      }
+    },
+    {
+      "name": "dart variables",
+      "scope": "variable.other.readwrite.dart",
+      "settings": {
+        "foreground": "#000000"
       }
     }
   ],
@@ -1920,8 +1970,8 @@
     "editorLineNumber.foreground": "#a7a2b491",
     "editorCursor.foreground": "#65fdf6ad",
     "editorCursor.background": "#000000",
-    "editor.selectionBackground": "#474a6880",
-    "editor.inactiveSelectionBackground": "#6369758f",
+    "editor.selectionBackground": "#676d9f80",
+    "editor.inactiveSelectionBackground": "#474a6880",
     "editorWhitespace.foreground": "#82b2ab38",
     "editor.selectionHighlightBackground": "#6c72cd5a",
     "editor.selectionHighlightBorder": "#5c79bccd",
@@ -2085,7 +2135,7 @@
     "minimapGutter.modifiedBackground": "#3c85a9",
     "minimapGutter.deletedBackground": "#cf5874",
     "minimap.findMatchHighlight": "#9b90674a",
-    "minimap.selectionHighlight": "#474a6880",
+    "minimap.selectionHighlight": "#676d9f80",
     "minimap.errorHighlight": "#ff6fce",
     "minimap.warningHighlight": "#ffd100",
     "minimap.background": "#1a1a2a",
